@@ -1,0 +1,40 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.harry{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    transform: translate(-50,-50);
+    text-align: center;
+}
+.box{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 50%;
+
+}
+.harry .container{
+    display: flex;
+    gap: 80px;
+    border: 1px solid black;
+    padding : 10px;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    box-shadow: 10px 20px 20px;
+}
+#box1{
+    background-color: #ff7f50;
+}
+#box2{
+    background-color: #0000ff;
+}#box3{
+    background-color: #781dce;
+}#box4{
+    background-color: #a52a2a;
+}#box5{
+    background-color: #adff2f;
+}
